@@ -1,27 +1,17 @@
-# Core backend
+tensorflow==2.12.0
+keras==2.12.0
+deepface==0.0.93
 flask==3.1.0
 flask-cors==5.0.1
 gunicorn==23.0.0
-
-# DeepFace + dependencies
-deepface==0.0.93
 retina-face==0.0.17
 mtcnn==1.0.0
-
-# Image + video processing
 opencv-python-headless==4.11.0.86
 pillow==11.2.1
 imageio==2.37.0
 imgaug==0.4.0
-
-# Data & computation
 numpy==1.24.3
 pandas==2.2.3
 scikit-learn==1.6.1
 scipy==1.15.2
-
-# TensorFlow 
-tensorflow==2.19.0
-keras==2.15.0
-tf-keras 
 
