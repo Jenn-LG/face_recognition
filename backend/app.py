@@ -8,7 +8,7 @@ import numpy as np
 import pickle
 
 app = Flask(__name__)
-CORS(app)
+CORS(app, origins=["https://facerecognitionv.vercel.app/"])
 
 # Cargar rutas de base de datos (las imágenes de referencia)
 with open('deepface_database_paths.pkl', 'rb') as f:
