@@ -161,7 +161,7 @@ async function capturarYReconocer() {
   document.getElementById("resultado").textContent = "Enviando imagen...";
 
   try {
-    const res = await fetch("https://TU_BACKEND_URL/recognize", {
+    const res = await fetch("https://face-recognition-8udx.onrender.com/recognize", {
       method: "POST",
       body: formData
     });
