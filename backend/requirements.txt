@@ -1,4 +1,6 @@
 flask
+flask-cors
 deepface
-opencv-python
+opencv-python-headless
 gunicorn
+pandas
